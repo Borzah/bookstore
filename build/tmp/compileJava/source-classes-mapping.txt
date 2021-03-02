@@ -1,0 +1,118 @@
+ee/taltech/bookstore/users/controller/UserController.java
+ ee.taltech.bookstore.users.controller.UserController
+ee/taltech/bookstore/book/model/Book.java
+ ee.taltech.bookstore.book.model.Book
+ee/taltech/bookstore/book/controller/ImageController.java
+ ee.taltech.bookstore.book.controller.ImageController
+ee/taltech/bookstore/business/service/BookResponseService.java
+ ee.taltech.bookstore.business.service.BookResponseService
+ee/taltech/bookstore/shopping/service/ShoppingService.java
+ ee.taltech.bookstore.shopping.service.ShoppingService
+ee/taltech/bookstore/book/controller/BookController.java
+ ee.taltech.bookstore.book.controller.BookController
+ee/taltech/bookstore/business/service/BookSortingService.java
+ ee.taltech.bookstore.business.service.BookSortingService
+ee/taltech/bookstore/business/controller/BookResponseController.java
+ ee.taltech.bookstore.business.controller.BookResponseController
+ee/taltech/bookstore/shopping/exception/ShoppingListException.java
+ ee.taltech.bookstore.shopping.exception.ShoppingListException
+ee/taltech/bookstore/shopping/model/ShoppingList.java
+ ee.taltech.bookstore.shopping.model.ShoppingList
+ee/taltech/bookstore/users/repository/UserRepository.java
+ ee.taltech.bookstore.users.repository.UserRepository
+ee/taltech/bookstore/users/service/AuthService.java
+ ee.taltech.bookstore.users.service.AuthService
+ee/taltech/bookstore/security/JwtConfig.java
+ ee.taltech.bookstore.security.JwtConfig
+ee/taltech/bookstore/book/repository/BookRepository.java
+ ee.taltech.bookstore.book.repository.BookRepository
+ee/taltech/bookstore/users/dto/LoginResponse.java
+ ee.taltech.bookstore.users.dto.LoginResponse
+ ee.taltech.bookstore.users.dto.LoginResponse$LoginResponseBuilder
+ee/taltech/bookstore/business/model/BookResponse.java
+ ee.taltech.bookstore.business.model.BookResponse
+ ee.taltech.bookstore.business.model.BookResponse$BookResponseBuilder
+ee/taltech/bookstore/security/DbRole.java
+ ee.taltech.bookstore.security.DbRole
+ee/taltech/bookstore/security/MyUser.java
+ ee.taltech.bookstore.security.MyUser
+ee/taltech/bookstore/configuration/SwaggerConfig.java
+ ee.taltech.bookstore.configuration.SwaggerConfig
+ee/taltech/bookstore/shopping/repository/ShoppingListRepository.java
+ ee.taltech.bookstore.shopping.repository.ShoppingListRepository
+ee/taltech/bookstore/business/controller/BookSortingController.java
+ ee.taltech.bookstore.business.controller.BookSortingController
+ee/taltech/bookstore/book/repository/ImageRepository.java
+ ee.taltech.bookstore.book.repository.ImageRepository
+ee/taltech/bookstore/book/model/Image.java
+ ee.taltech.bookstore.book.model.Image
+ee/taltech/bookstore/security/UserTokenHolder.java
+ ee.taltech.bookstore.security.UserTokenHolder
+ee/taltech/bookstore/book/service/GenreService.java
+ ee.taltech.bookstore.book.service.GenreService
+ee/taltech/bookstore/shopping/controller/ShoppingController.java
+ ee.taltech.bookstore.shopping.controller.ShoppingController
+ee/taltech/bookstore/book/dto/ImageDto.java
+ ee.taltech.bookstore.book.dto.ImageDto
+ee/taltech/bookstore/users/model/User.java
+ ee.taltech.bookstore.users.model.User
+ee/taltech/bookstore/security/JwtRequestFilter.java
+ ee.taltech.bookstore.security.JwtRequestFilter
+ee/taltech/bookstore/book/service/BookService.java
+ ee.taltech.bookstore.book.service.BookService
+ee/taltech/bookstore/shopping/service/ShoppingListService.java
+ ee.taltech.bookstore.shopping.service.ShoppingListService
+ee/taltech/bookstore/security/AuthChecker.java
+ ee.taltech.bookstore.security.AuthChecker
+ee/taltech/bookstore/book/controller/GenreController.java
+ ee.taltech.bookstore.book.controller.GenreController
+ee/taltech/bookstore/shopping/exception/InvalidShoppingListException.java
+ ee.taltech.bookstore.shopping.exception.InvalidShoppingListException
+ee/taltech/bookstore/BookstoreApplication.java
+ ee.taltech.bookstore.BookstoreApplication
+ee/taltech/bookstore/users/service/UserService.java
+ ee.taltech.bookstore.users.service.UserService
+ee/taltech/bookstore/users/dto/LoginDto.java
+ ee.taltech.bookstore.users.dto.LoginDto
+ee/taltech/bookstore/book/dto/BookDto.java
+ ee.taltech.bookstore.book.dto.BookDto
+ee/taltech/bookstore/security/MyUserDetailsService.java
+ ee.taltech.bookstore.security.MyUserDetailsService
+ee/taltech/bookstore/book/service/ImageService.java
+ ee.taltech.bookstore.book.service.ImageService
+ee/taltech/bookstore/business/service/BookSearchService.java
+ ee.taltech.bookstore.business.service.BookSearchService
+ee/taltech/bookstore/security/SecurityConfig.java
+ ee.taltech.bookstore.security.SecurityConfig
+ee/taltech/bookstore/shopping/dto/ShoppingListDto.java
+ ee.taltech.bookstore.shopping.dto.ShoppingListDto
+ee/taltech/bookstore/book/repository/GenreRepository.java
+ ee.taltech.bookstore.book.repository.GenreRepository
+ee/taltech/bookstore/users/dto/TokenDto.java
+ ee.taltech.bookstore.users.dto.TokenDto
+ee/taltech/bookstore/book/dto/GenreDto.java
+ ee.taltech.bookstore.book.dto.GenreDto
+ee/taltech/bookstore/users/dto/RegisterDto.java
+ ee.taltech.bookstore.users.dto.RegisterDto
+ee/taltech/bookstore/book/exception/BookNotFoundException.java
+ ee.taltech.bookstore.book.exception.BookNotFoundException
+ee/taltech/bookstore/users/exception/UserException.java
+ ee.taltech.bookstore.users.exception.UserException
+ee/taltech/bookstore/book/exception/InvalidBookException.java
+ ee.taltech.bookstore.book.exception.InvalidBookException
+ee/taltech/bookstore/configuration/UserConfig.java
+ ee.taltech.bookstore.configuration.UserConfig
+ee/taltech/bookstore/users/exception/AuthorizationException.java
+ ee.taltech.bookstore.users.exception.AuthorizationException
+ee/taltech/bookstore/business/controller/BookSearchController.java
+ ee.taltech.bookstore.business.controller.BookSearchController
+ee/taltech/bookstore/book/model/Genre.java
+ ee.taltech.bookstore.book.model.Genre
+ee/taltech/bookstore/security/Roles.java
+ ee.taltech.bookstore.security.Roles
+ee/taltech/bookstore/security/RestAuthenticationEntryPoint.java
+ ee.taltech.bookstore.security.RestAuthenticationEntryPoint
+ee/taltech/bookstore/security/JwtTokenProvider.java
+ ee.taltech.bookstore.security.JwtTokenProvider
+ee/taltech/bookstore/shopping/controller/ShoppingListController.java
+ ee.taltech.bookstore.shopping.controller.ShoppingListController

@@ -1,0 +1,53 @@
+image: openjdk:11
+
+stages:
+  - build
+  - test
+  - deploy
+
+before_script:
+  - export GRADLE_USER_HOME=`pwd`/.gradle
+  - chmod +x ./gradlew
+
+#ToDo: Put actual build info.
+build bookstore-back:
+  stage: build
+  cache:
+    paths:
+      - .gradle/wrapper
+      - .gradle/caches
+  artifacts:
+    paths:
+      - build/libs
+  tags:
+    - bookstore-back
+  script:
+    - ./gradlew assemble
+
+#ToDo: Get actual testing data.
+test bookstore-back:
+  stage: test
+  tags:
+    - bookstore-back
+  script:
+    - echo "Test-phase, yay..."
+    #- ./gradlew check --stacktrace
+
+deploy bookstore-back:
+  stage: deploy
+  only:
+    refs:
+      - main
+  tags:
+    - bookstore-back
+  script:
+    - mkdir -p ~/api-deployment
+    - rm -rf ~/api-deployment/*
+    - cp -r build/libs/. ~/api-deployment
+    - cp -r Dockerfile ~/
+    - cp -r docker-compose.yml ~/
+    #- docker-compose down
+    - docker-compose up -d --build
+    - echo "Done!"
+
+#    - sudo service bookstore-back restart
